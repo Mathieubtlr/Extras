@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a1f49153fdd49b5fb0da5d10981634b3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a1f49153fdd49b5fb0da5d10981634b3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a1f49153fdd49b5fb0da5d10981634b3 = L.map(
+                "map_a1f49153fdd49b5fb0da5d10981634b3",
+                {
+                    center: [48.020483446200004, 3.9582589909],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7a1e146e8c4e7d9d42de1441a13be22d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_7a1e146e8c4e7d9d42de1441a13be22d.addTo(map_a1f49153fdd49b5fb0da5d10981634b3);
+        
+    
+            var marker_300e8ef1fa22b7bf5800b68c19b29a41 = L.marker(
+                [48.783985823, 2.19707485523],
+                {}
+            ).addTo(map_a1f49153fdd49b5fb0da5d10981634b3);
+        
+    
+            var icon_dd71fb4c1ff2e81cf3243fa04133e581 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_300e8ef1fa22b7bf5800b68c19b29a41.setIcon(icon_dd71fb4c1ff2e81cf3243fa04133e581);
+        
+    
+        var popup_a1d9cebd56a248bab28f356b350d2406 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6732e581a91ddaac2c4eda16cfb7b80b = $(`<div id="html_6732e581a91ddaac2c4eda16cfb7b80b" style="width: 100.0%; height: 100.0%;">Vélizy-Villacoublay</div>`)[0];
+                popup_a1d9cebd56a248bab28f356b350d2406.setContent(html_6732e581a91ddaac2c4eda16cfb7b80b);
+            
+        
+
+        marker_300e8ef1fa22b7bf5800b68c19b29a41.bindPopup(popup_a1d9cebd56a248bab28f356b350d2406)
+        ;
+
+        
+    
+    
+            var marker_4bb85a10d42672700104cba16e6acf2c = L.marker(
+                [47.2569810694, 5.71944312657],
+                {}
+            ).addTo(map_a1f49153fdd49b5fb0da5d10981634b3);
+        
+    
+            var icon_b23c80b43ed80708be8b0e3fdd466370 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4bb85a10d42672700104cba16e6acf2c.setIcon(icon_b23c80b43ed80708be8b0e3fdd466370);
+        
+    
+        var popup_d8e24fce2fe73f6afa99a2bba1890057 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e331b81002d31c3dc129d085f975619e = $(`<div id="html_e331b81002d31c3dc129d085f975619e" style="width: 100.0%; height: 100.0%;">Jallerange</div>`)[0];
+                popup_d8e24fce2fe73f6afa99a2bba1890057.setContent(html_e331b81002d31c3dc129d085f975619e);
+            
+        
+
+        marker_4bb85a10d42672700104cba16e6acf2c.bindPopup(popup_d8e24fce2fe73f6afa99a2bba1890057)
+        ;
+
+        
+    
+    
+            var poly_line_b16d1823e771b00d3e83f0068edcf94e = L.polyline(
+                [[48.783985823, 2.19707485523], [47.2569810694, 5.71944312657]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_a1f49153fdd49b5fb0da5d10981634b3);
+        
+</script>
+</html>
