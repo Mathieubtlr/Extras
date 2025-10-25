@@ -33,7 +33,7 @@ Type random words as fast and accurately as possible!
 
 ---
 
-### 3. **Geographic Distance Analysis (`distance.py`)**
+### **Geographic Distance Analysis (`distance.py`)**
 A toolkit for exploring distances between French towns and regions using **Haversine’s formula** and **Folium** for map visualization.
 
 #### Features
